@@ -5059,7 +5059,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	margin-bottom: 10px;
 }
 
-h2 {
+.h2_profile{
 	font-size: 1.8em;
 	margin-bottom: 20px;
 	color: #333;
