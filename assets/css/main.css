@@ -4688,37 +4688,51 @@ input, select, textarea {
 
 	}
 
-	.project-details {
-		display: none;
-		margin-top: 10px;
-	}
-	
-	.card {
-		background-color: #f8f9fa;
-		padding: 10px;
-		margin: 10px 0;
-		border-radius: 8px;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-		cursor: pointer;
-		transition: background-color 0.3s, transform 0.3s;
-		width: 100%;
-		max-width: 300px;
-	}
-	
-	.card:hover {
-		background-color: #e2e6ea;
-		transform: scale(1.05);
-	}
-	
-	.card h2 {
-		margin: 0;
-		font-size: 18px;
-	}
-	
-	.card-container {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 10px;
-	}
+	/* Flexbox container for images */
+.image-gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-	
+.image-gallery .image {
+    flex: 1;
+    max-width: calc(50% - 20px);
+}
+
+.project-details {
+    display: none;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    background-color: #e2e6ea;
+}
+
+.card:focus {
+    outline: none;
+}
+
+.project-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.project-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
