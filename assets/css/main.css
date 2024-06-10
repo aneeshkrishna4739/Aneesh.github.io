@@ -5018,3 +5018,51 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	font-size: 0.9em;
 	color: #555;
 }
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.experience-image {
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.experience-content {
+    max-width: 800px;
+}
+
+.experience-content strong {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience-content p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.experience-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0 0;
+    color: #444;
+}
+
+.experience-content ul li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
