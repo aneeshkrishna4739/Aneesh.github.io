@@ -5067,3 +5067,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	border-bottom: 2px solid #e0e0e0;
 	padding-bottom: 10px;
 }
+
+.ul .li{
+	text-align: left;
+}
