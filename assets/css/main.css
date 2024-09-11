@@ -3933,7 +3933,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #main>.post {
-	padding: 8rem 8rem 6rem 8rem;
+	padding: 6rem 6rem 4rem 6rem;
 }
 
 #main>.post header.major>.date {
@@ -5034,7 +5034,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 .experience-content {
-	max-width: 800px;
+	max-width: 100%;
 }
 
 .experience-content strong {
