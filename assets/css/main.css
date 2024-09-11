@@ -5071,3 +5071,6 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 .ul .li{
 	text-align: left;
 }
+header.major {
+    text-align: center;
+}
