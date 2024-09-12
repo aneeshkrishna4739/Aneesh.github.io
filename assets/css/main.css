@@ -5023,6 +5023,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 .experience-item {
 	display: flex;
 	align-items: flex-start;
+	flex-direction: column; /* Makes sure content stacks vertically */
 	margin-bottom: 20px;
 	padding: 20px;
 	border-radius: 8px;
@@ -5034,7 +5035,9 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 .experience-content {
-	max-width: 100%;
+	display: flex;
+	justify-content: space-between; /* Ensures the left and right sections are spaced properly */
+	width: 100%;
 }
 
 .experience-content strong {
@@ -5058,6 +5061,15 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 .experience-content ul li {
 	margin-bottom: 10px;
+}
+
+.experience-left {
+	flex-grow: 1; /* Make this section take up available space */
+}
+
+.experience-right {
+	text-align: right;
+	min-width: 150px; /* Set a minimum width for the right section */
 }
 
 .h2_profile{
