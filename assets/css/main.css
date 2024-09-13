@@ -176,6 +176,9 @@ body {
 	body {
 		min-width: 320px;
 	}
+	#nav {
+        display: block; /* Ensure navigation is visible or adjust as needed */
+    }
 
 }
 
